@@ -1,4 +1,4 @@
-package com.gh.core;
+package com.gh.core.proxy;
 
 import android.content.BroadcastReceiver;
 import android.content.Intent;
@@ -8,6 +8,9 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.gh.core.HookManager;
+import com.gh.core.proxyinterface.ProxyActivityInterface;
 
 import java.lang.reflect.Constructor;
 

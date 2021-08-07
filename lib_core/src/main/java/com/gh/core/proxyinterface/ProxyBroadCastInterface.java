@@ -1,4 +1,4 @@
-package com.gh.core;
+package com.gh.core.proxyinterface;
 
 import android.content.Context;
 import android.content.Intent;

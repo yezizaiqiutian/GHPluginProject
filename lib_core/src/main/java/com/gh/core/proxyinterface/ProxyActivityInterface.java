@@ -1,4 +1,4 @@
-package com.gh.core;
+package com.gh.core.proxyinterface;
 
 import android.app.Activity;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.gh.core;
+package com.gh.core.base;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -12,6 +12,8 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
+
+import com.gh.core.proxyinterface.ProxyActivityInterface;
 
 /**
  * @author: gh

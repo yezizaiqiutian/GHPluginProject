@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.gh.core.HookManager;
-import com.gh.core.ProxyActivity;
+import com.gh.core.proxy.ProxyActivity;
 
 public class MainActivity extends AppCompatActivity {
 

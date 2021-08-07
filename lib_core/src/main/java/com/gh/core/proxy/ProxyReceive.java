@@ -1,8 +1,11 @@
-package com.gh.core;
+package com.gh.core.proxy;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+
+import com.gh.core.HookManager;
+import com.gh.core.proxyinterface.ProxyBroadCastInterface;
 
 import java.lang.reflect.Constructor;
 
@@ -14,7 +17,7 @@ import java.lang.reflect.Constructor;
  */
 public class ProxyReceive extends BroadcastReceiver {
     String className;
-    private  ProxyBroadCastInterface receiveObj;
+    private ProxyBroadCastInterface receiveObj;
 
     public ProxyReceive(String className, Context context) {
         this.className = className;

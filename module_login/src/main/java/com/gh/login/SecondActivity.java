@@ -2,7 +2,7 @@ package com.gh.login;
 
 import android.os.Bundle;
 
-import com.gh.core.BaseActivity;
+import com.gh.core.base.BaseActivity;
 
 public class SecondActivity extends BaseActivity {
 

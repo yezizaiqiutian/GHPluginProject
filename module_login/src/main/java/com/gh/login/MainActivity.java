@@ -5,7 +5,7 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.View;
 
-import com.gh.core.BaseActivity;
+import com.gh.core.base.BaseActivity;
 
 public class MainActivity extends BaseActivity {
 
