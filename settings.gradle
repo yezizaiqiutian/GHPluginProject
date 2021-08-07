@@ -1,0 +1,4 @@
+include ':lib_core'
+include ':module_login'
+include ':app'
+rootProject.name = "GHPluginProject"
